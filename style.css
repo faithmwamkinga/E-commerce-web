@@ -158,3 +158,45 @@ footer{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+@media(max-width:600px){
+    a{
+        margin-left: 10%;
+    }
+    #discover{
+        width: 30%;
+    }
+    .selection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 5%;
+    } 
+    .icons{
+        margin-top: -20%;
+    }
+    #view{
+    width: 40%;
+    justify-content: center;
+    margin-left: 30%;
+    }
+    .allshoes{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 5%;
+    }
+    #subscribe{
+        width: 80%;
+        height: 7vh;
+        margin-top: 5%;
+    }
+    #social{
+        width: 20px;
+        height: 20px;
+        margin-left: 3%;
+    }
+    #money{
+        width: 20px;
+        height: 20px;
+        margin-left: 3%;
+        margin-top: 11%;
+    }
+}
